@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useSelector } from 'react-redux';
-import ArrowBackSVG from '../icons/ArrowBackSVG';
+import ArrowBackSVG from '../assets/icons/ArrowBackSVG';
 import HistoryCard from '../components/HistoryCard';
 
 export default function HistoryScreen({ navigation }) {

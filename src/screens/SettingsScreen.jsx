@@ -11,11 +11,11 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import Slider from '@react-native-community/slider';
 
-import ArrowBackSVG from '../icons/ArrowBackSVG';
-import PrivacySVG from '../icons/PrivacySVG';
-import WebsiteSVG from '../icons/WebsiteSVG';
-import MusicSVG from '../icons/MusicSVG';
-import ArrowDownSVG from '../icons/ArrowDownSVG';
+import ArrowBackSVG from '../assets/icons/ArrowBackSVG';
+import PrivacySVG from '../assets/icons/PrivacySVG';
+import WebsiteSVG from '../assets/icons/WebsiteSVG';
+import MusicSVG from '../assets/icons/MusicSVG';
+import ArrowDownSVG from '../assets/icons/ArrowDownSVG';
 
 export default function SettingsScreen({ navigation }) {
     const [musicValue, setMusicValue] = useState(0.5);

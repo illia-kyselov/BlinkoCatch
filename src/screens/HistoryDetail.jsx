@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, SafeAreaView, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRoute, useNavigation } from '@react-navigation/native';
-import ArrowBackSVG from '../icons/ArrowBackSVG';
+import ArrowBackSVG from '../assets/icons/ArrowBackSVG';
 
 export default function HistoryDetail() {
     const { params: { item } } = useRoute();

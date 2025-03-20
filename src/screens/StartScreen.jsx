@@ -9,9 +9,9 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import HistorySVG from '../icons/HistorySVG';
-import SettingsSVG from '../icons/SettingsSVG';
-import PlaySVG from '../icons/PlaySVG';
+import HistorySVG from '../assets/icons/HistorySVG';
+import SettingsSVG from '../assets/icons/SettingsSVG';
+import PlaySVG from '../assets/icons/PlaySVG';
 
 export default function StartScreen({ navigation }) {
     return (
